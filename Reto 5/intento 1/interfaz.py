@@ -4,7 +4,7 @@ from chatbot_controller import ChatbotController
 class ChatbotGUI:
     def __init__(self):
         self.window = tk.Tk()
-        self.chatbot = ChatbotController(api_key='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')
+        self.chatbot = ChatbotController(api_key='API KEY HERE')
         
         self.create_widgets()
         
