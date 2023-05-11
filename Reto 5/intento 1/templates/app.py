@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from chatbot_controller import ChatbotController
 
 app = Flask(__name__)
-chatbot = ChatbotController(api_key='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')
+chatbot = ChatbotController(api_key='')
 
 @app.route('/')
 def index():
