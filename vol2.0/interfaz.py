@@ -16,7 +16,7 @@ user_input = tk.Text(window, height=2)
 user_input.pack(pady=10)
 
 # Obtener la API key (debes reemplazar 'TU_API_KEY' con tu propia API key)
-api_key = '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'
+api_key = ''
 
 # Crear una instancia del controlador del chatbot
 chatbot_controller = ChatbotController(api_key)
