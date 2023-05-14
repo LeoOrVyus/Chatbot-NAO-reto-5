@@ -1,0 +1,61 @@
+/* Estilos para el contenedor principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0000ff; /* Color de fondo azul */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #chat-container {
+    max-width: 600px;
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 100px; /* Espacio superior */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url('ruta/imagen.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajustar imagen de fondo */
+    background-repeat: no-repeat; /* Evitar repetición de la imagen */
+    background-position: center; /* Centrar imagen de fondo */
+    background-color: #f9f9f9; /* Color de fondo en caso de que la imagen no se cargue */
+  }
+  
+  /* Estilos para el historial de chat */
+  #chat-log {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Estilos para el campo de entrada y botón de envío */
+  #input-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #user-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #send-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
